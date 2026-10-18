@@ -1,0 +1,2 @@
+# Ekhwanakom course review
+Standalone design and course preview. Completion is stored only in this browser; no platform integration or official attendance record. No beneficiary records or credentials are included.

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#112d52"><meta name="robots" content="noindex,nofollow">
+  <title>الدورة التأهيلية للتآخي — معاينة إخوانكم</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="journey-impact.css">
+  <script>document.documentElement.dataset.theme="journey";document.documentElement.dataset.palette="impact";</script>
+  <script type="module" src="app.mjs"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="إخوانكم — الدورة التأهيلية"><img src="assets/logo.png" alt="جمعية إخوانكم لتمكين الأيتام" width="90" height="80"></a>
+    <span class="header-title">التأهيل للتآخي</span>
+    <span class="back-link">نسخة للمراجعة</span>
+  </header>
+  <main class="course-layout">
+    <div class="orbit orbit-one" aria-hidden="true"></div><div class="orbit orbit-two" aria-hidden="true"></div>
+    <section class="intro" aria-labelledby="page-title">
+      <div class="intro-rule" aria-hidden="true"></div>
+      <h1 id="page-title">خطوتك الأولى<br> <span>لتكون أخًا أكبر</span></h1>
+      <p class="lead">شاهد الدورة التعريفية،<br class="mobile-break"> وابدأ رحلة تصنع أثرًا.</p>
+      <div class="purpose"><p>التآخي حضورٌ واحتواء، وعلاقة أخوية<br>تنمو بالثقة والاستمرار.</p></div>
+      <ol class="steps" aria-label="خطوات التأهيل">
+        <li class="current" data-step="1"><span class="step-number">١</span><div><strong>تعرّف</strong><small>على معنى التآخي</small></div></li>
+        <li data-step="2"><span class="step-number">٢</span><div><strong>شاهد</strong><small>الدورة التأهيلية</small></div></li>
+        <li data-step="3"><span class="step-number">٣</span><div><strong>أكّد</strong><small>استعدادك للتآخي</small></div></li>
+      </ol>
+      <a class="start-button" href="#watch">ابدأ المشاهدة <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16m-6-6 6 6 6-6"/></svg></a>
+    </section>
+    <section class="player-section" id="watch" aria-label="مشاهدة الدورة التأهيلية">
+      <div class="player-frame">
+        <video id="course" controls controlslist="nodownload noplaybackrate" disablepictureinpicture playsinline preload="metadata" poster="assets/poster.jpg" aria-label="فيديو الدورة التأهيلية للتآخي"><source src="course.mp4" type="video/mp4"></video>
+        <button class="play-cover" id="cover" aria-label="تشغيل الدورة"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 11 7-11 7Z"/></svg></button>
+        <span class="duration" dir="ltr"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>04:13</span>
+      </div>
+      <p class="player-caption">الدورة التأهيلية للتآخي <span>٤ دقائق لخطوة لها أثر</span></p>
+    </section>
+    <section class="progress-section" aria-label="تقدّم مشاهدة الدورة">
+      <div class="progress-heading"><strong>رحلتك نحو التآخي</strong><span id="percent">٠٪</span></div>
+      <div class="progress-track" role="progressbar" aria-label="اكتمال مشاهدة الدورة" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span id="progress-fill"></span></div>
+      <div class="progress-note"><span id="watch-status">شاهد الدورة، ثم أكّد استعدادك</span><span id="remaining">٤:١٠ متبقية</span></div>
+    </section>
+    <section class="ack-section" id="ack-section" aria-label="إقرار حضور الدورة">
+      <label class="ack-label" for="ack"><input type="checkbox" id="ack" disabled aria-describedby="ack-help"><span class="custom-check" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></svg></span><span class="ack-copy">حضرت الدورة التأهيلية وأنا مستعد للتآخي</span></label>
+      <p id="ack-help"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10" width="14" height="11" rx="3"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg><span>يتاح الإقرار بعد إكمال المشاهدة</span></p>
+      <div id="success" hidden role="status"><span class="success-seal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span><div><strong>اكتملت خطوتك الأولى</strong><p>أتممت الدورة التعريفية وأكدت استعدادك للتآخي.</p></div></div>
+    </section>
+    <p id="notice" class="notice" role="status" aria-live="polite"></p>
+  </main>
+  <footer class="site-footer"><span></span><p>إكمال الدورة أحد متطلبات رخصة التآخي</p><span></span></footer><p style="text-align:center;color:#bdcce0;font-size:11px;padding:0 22px 24px;margin:0;line-height:2">هذه نسخة للمراجعة؛ إكمالها لا يحدّث ملف الأخ الأكبر في المنصة.</p>
+</body>
+</html>

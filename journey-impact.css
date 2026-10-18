@@ -1,0 +1,53 @@
+/* Review candidate only: journey layout with the impact palette. */
+html[data-theme=journey][data-palette=impact]{--journey-dark:#0d2340;--journey-surface:#112b4d;--journey-muted:#c0d0e4;--journey-line:#42607e}
+[data-theme=journey][data-palette=impact] body{color:#fff;background:var(--journey-dark);background-image:radial-gradient(ellipse at 10% 80%,#164c6e5c,transparent 55%),radial-gradient(ellipse at 90% 5%,#204d83a3,transparent 60%)}
+[data-theme=journey][data-palette=impact] .course-layout{background:none;padding-top:33px}
+[data-theme=journey][data-palette=impact] h1{font-size:42px;color:#fff}
+[data-theme=journey][data-palette=impact] h1 span{color:var(--teal)}
+[data-theme=journey][data-palette=impact] .lead{color:#d9e5f4;font-size:17px;margin-top:7px}
+[data-theme=journey][data-palette=impact] .steps:before{border-color:#73c4cb80}
+[data-theme=journey][data-palette=impact] .step-number{background:var(--journey-surface);border-color:#66819b;color:#d2dfec}
+[data-theme=journey][data-palette=impact] .steps .current .step-number,
+[data-theme=journey][data-palette=impact] .steps .done .step-number{background:var(--teal);border-color:var(--teal);color:#102c41;box-shadow:0 0 0 6px #50b8b80e}
+[data-theme=journey][data-palette=impact] .steps small{color:var(--journey-muted)}
+[data-theme=journey][data-palette=impact] .player-frame{border:1px solid #63d6d4;box-shadow:0 0 0 7px #50b8b806,0 20px 70px #0e637539}
+[data-theme=journey][data-palette=impact] .player-caption span{color:var(--journey-muted)}
+[data-theme=journey][data-palette=impact] .progress-heading{background:conic-gradient(var(--teal) var(--angle,0deg),#385472 0);outline-color:#234362}
+[data-theme=journey][data-palette=impact] .progress-heading:after{background:var(--journey-surface)}
+[data-theme=journey][data-palette=impact] .progress-heading>span{color:#8ce0dd}
+[data-theme=journey][data-palette=impact] .progress-heading strong{color:#e2eaf5}
+[data-theme=journey][data-palette=impact] .progress-track{background:#35516e}
+[data-theme=journey][data-palette=impact] .progress-note{color:var(--journey-muted)}
+[data-theme=journey][data-palette=impact] .ack-section{background:#fff;border-color:#c8e7e7;color:var(--ink);box-shadow:0 12px 42px #081a3120}
+[data-theme=journey][data-palette=impact] .ack-section>p{color:#5d6e85;font-size:12px}
+[data-theme=journey][data-palette=impact] .ack-copy{font-size:16px}
+[data-theme=journey][data-palette=impact] .custom-check{border-color:#7d91a8}
+[data-theme=journey][data-palette=impact] input:disabled+.custom-check{background:#f0f3f7;border-color:#b3c0d0}
+[data-theme=journey][data-palette=impact] .unlocked{border-color:var(--teal);box-shadow:0 0 0 4px #50b8b820}
+[data-theme=journey][data-palette=impact] .confirmed .custom-check{background:#238f95;border-color:#238f95;color:#fff}
+[data-theme=journey][data-palette=impact] #success{border-top-color:#dbe8ed}
+[data-theme=journey][data-palette=impact] #success p{color:#5d6e85}
+[data-theme=journey][data-palette=impact] .notice{color:#8ce0dd}
+[data-theme=journey][data-palette=impact] .site-footer{color:#bdcce0}
+[data-theme=journey][data-palette=impact] .site-footer>span{background:#405a77}
+[data-theme=journey][data-palette=impact] .orbit{display:block;position:absolute;border:1px solid #6cb8dd12;border-radius:50%;z-index:-1;pointer-events:none;animation:breathe 12s ease-in-out infinite}
+[data-theme=journey][data-palette=impact] .orbit-one{top:-80px;right:-90px;width:700px;height:700px}
+[data-theme=journey][data-palette=impact] .orbit-two{top:40px;left:-160px;width:900px;height:900px;animation-delay:-6s}
+@media(max-width:1000px){[data-theme=journey][data-palette=impact] h1{font-size:34px}}
+@media(max-width:700px){
+  [data-theme=journey][data-palette=impact] .course-layout{padding-top:27px}
+  [data-theme=journey][data-palette=impact] h1{font-size:33px;line-height:1.7}
+  [data-theme=journey][data-palette=impact] .lead{font-size:14px;line-height:2;margin-top:11px}
+  [data-theme=journey][data-palette=impact] .steps{margin-top:25px;margin-bottom:26px}
+  [data-theme=journey][data-palette=impact] .steps small{font-size:11px;line-height:1.9}
+  [data-theme=journey][data-palette=impact] .steps strong{font-size:14px}
+  [data-theme=journey][data-palette=impact] .progress-heading{background:none;outline:0}
+  [data-theme=journey][data-palette=impact] .progress-heading strong{font-size:13px}
+  [data-theme=journey][data-palette=impact] .progress-note{font-size:11px;line-height:1.9;flex-wrap:wrap;row-gap:5px}
+  [data-theme=journey][data-palette=impact] .ack-section{padding:23px 18px;margin-top:24px}
+  [data-theme=journey][data-palette=impact] .ack-copy{font-size:14px;line-height:2}
+  [data-theme=journey][data-palette=impact] .ack-section>p{font-size:11px;line-height:1.9;margin-top:10px}
+  [data-theme=journey][data-palette=impact] .player-caption{font-size:14px}
+  [data-theme=journey][data-palette=impact] .player-caption span{font-size:12px;line-height:1.9}
+  [data-theme=journey][data-palette=impact] .site-footer{font-size:10px}
+}
