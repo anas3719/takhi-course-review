@@ -1,0 +1,10 @@
+{
+  "asset": "course-approved-20261019.mp4",
+  "sha256": "2de2834937937ee74f1fe9d730bea93f584954e0515ac47150b349f1a48d3293",
+  "bytes": 20434081,
+  "duration_ms": 249986,
+  "required_content_end_ms": 247000,
+  "content_boundary_evidence": "Original final speech ends near 246.48s in local transcription; detected final silence starts 245.990068s. Conservative content boundary 247s. Automated evidence is not human listening approval.",
+  "encoding": "H264 720x1280 CRF27 AAC96k faststart; full duration; no content cut",
+  "previous_asset_retained": "course.mp4"
+}
